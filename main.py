@@ -23,7 +23,7 @@ def getMessage():
 @server.route("/")
 def webhook():
     bot.remove_webhook()
-    bot.set_webhook(url='https://<Название_вашего_хероку_приложения>.herokuapp.com/' + TOKEN)
+    bot.set_webhook(url='https://dashboard.heroku.com/apps/test0000101/deploy/heroku-git' + TOKEN)
     return "!", 200
 
 if __name__ == "__main__":
