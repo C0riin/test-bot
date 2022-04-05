@@ -5,7 +5,7 @@ from telebot import types
 
 import telebot
 
-TOKEN = 'ВАШ ТОКЕН'
+TOKEN = '5219323255:AAEBe5idHeWZf46tOAnGJmDyI5qgqd6VbRw'
 bot = telebot.TeleBot(TOKEN)
 server = Flask(__name__)
 
